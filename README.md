@@ -20,12 +20,12 @@ flowchart TD
         File1 --> File3
         File2 --> File3
   end
- subgraph HighDialect["Lambda programming dialect"]
+ subgraph HighDialect["Lambda dialect"]
         Interpreter["Interpreter"]
         HighLib["Church-encoding based standard library"]
         Interpreter --- HighLib
   end
- subgraph LowDialect["JavaScript programming dialect"]
+ subgraph LowDialect["JavaScript dialect"]
         Transpiler["Transpiler to JavaScript"]
         LowLib["JavaScript compatible standard library"]
         Transpiler --- LowLib
