@@ -36,7 +36,7 @@ flowchart TD
         Grammar --- VocabularLib
   end
     AST["AST"]
-    Parser("Parser")
+    Parser("S-expressions parser")
 
     Source --> Parser
     Parser --> AST
