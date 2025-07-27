@@ -32,7 +32,7 @@ flowchart TD
   end
  subgraph SpeakDialect["Speaking dialect"]
         Grammar["Function based syntax and morphology"]
-        VocabularLib["Vocabular"]
+        VocabularLib["Vocabulary"]
         Grammar --- VocabularLib
   end
     AST["AST"]
