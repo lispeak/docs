@@ -26,7 +26,7 @@ flowchart TD
         Interpreter --- HighLib
   end
  subgraph LowDialect["JavaScript dialect"]
-        Transpiler["Transpiler to JavaScript"]
+        Transpiler["JavaScript Transpiler"]
         LowLib["JavaScript compatible standard library"]
         Transpiler --- LowLib
   end
