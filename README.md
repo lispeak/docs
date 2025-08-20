@@ -80,10 +80,10 @@ Every expression in Lispeak is application of functions. E.g. the following mean
 
 ### Named expressions
 
-You can create named expressions with left arrow `<-`. E.g. in the following example we create expression named `a` with value `1`:
+You can create named expressions with `=`. E.g. in the following example we create expression named `a` with value `1`:
 
 ```
-(<- a 1)
+(= a 1)
 ```
 
 ### Lambda functions
